@@ -6,6 +6,6 @@ document.getElementById('login-button').addEventListener('click', function () {
     const userPassword = passwordInput.value;
 
     if (userEmail == 'sim@gmail.com' && userPassword == '123') {
-        window.location.href = 'account.html';
+        window.location.href = 'others/account.html';
     }
 });
